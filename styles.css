@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+
+		h2 {
+            text-align: center;
+        }
+
+        /* Add custom styling for cards */
+        .card {
+            border-radius: 15px;
+            margin: 10px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        /* Center-align card content */
+        .card-body {
+            text-align: center;
+        }
+
+        /* Add hover effect to cards */
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        /* Style for the lightbox modal */
+        #image-modal .modal-dialog {
+            max-width: 80%;
+        }
+
+        #image-modal .modal-content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        #image-modal img {
+            max-width: 100%;
+            height: auto;
+        }

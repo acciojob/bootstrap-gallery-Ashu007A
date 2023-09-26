@@ -4,13 +4,122 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
+	<div class="container mt-5">
+        <h2>Cards Gallery</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" data-toggle="modal" data-target="#image-modal">
+                    <img src="https://storage.googleapis.com/acciojob-open-file-collections/image1.jpg" class="card-img-top" alt="Image 1">
+                    <div class="card-body">
+                        <h6 class="card-title">Card 1</h6>
+                        <p class="card-text">"Nor is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain."</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" data-toggle="modal" data-target="#image-modal">
+                    <img src="https://storage.googleapis.com/acciojob-open-file-collections/image2.jpg" class="card-img-top" alt="Image 2">
+                    <div class="card-body">
+                        <h6 class="card-title">Card 2</h6>
+                        <p class="card-text">"Nor is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain."</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" data-toggle="modal" data-target="#image-modal">
+                    <img src="https://storage.googleapis.com/acciojob-open-file-collections/image3.jpg" class="card-img-top" alt="Image 3">
+                    <div class="card-body">
+                        <h6 class="card-title">Card 3</h6>
+                        <p class="card-text">"Nor is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain."</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" data-toggle="modal" data-target="#image-modal">
+                    <img src="https://storage.googleapis.com/acciojob-open-file-collections/image4.jpg" class="card-img-top" alt="Image 4">
+                    <div class="card-body">
+                        <h6 class="card-title">Card 4</h6>
+                        <p class="card-text">"Nor is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain."</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" data-toggle="modal" data-target="#image-modal">
+                    <img src="https://storage.googleapis.com/acciojob-open-file-collections/image5.jpg" class="card-img-top" alt="Image 5">
+                    <div class="card-body">
+                        <h6 class="card-title">Card 5</h6>
+                        <p class="card-text">"Nor is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain."</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" data-toggle="modal" data-target="#image-modal">
+                    <img src="https://storage.googleapis.com/acciojob-open-file-collections/image6.jpg" class="card-img-top" alt="Image 6">
+                    <div class="card-body">
+                        <h6 class="card-title">Card 6</h6>
+                        <p class="card-text">"Nor is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain."</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" data-toggle="modal" data-target="#image-modal">
+                    <img src="https://storage.googleapis.com/acciojob-open-file-collections/image7.jpg" class="card-img-top" alt="Image 7">
+                    <div class="card-body">
+                        <h6 class="card-title">Card 7</h6>
+                        <p class="card-text">"Nor is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain."</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" data-toggle="modal" data-target="#image-modal">
+                    <img src="https://storage.googleapis.com/acciojob-open-file-collections/image8.jpg" class="card-img-top" alt="Image 8">
+                    <div class="card-body">
+                        <h6 class="card-title">Card 8</h6>
+                        <p class="card-text">"Nor is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain."</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card" data-toggle="modal" data-target="#image-modal">
+                    <img src="https://storage.googleapis.com/acciojob-open-file-collections/image9.jpg" class="card-img-top" alt="Image 9">
+                    <div class="card-body">
+                        <h6 class="card-title">Card 9</h6>
+                        <p class="card-text">"Nor is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain."</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div class="modal fade" id="image-modal" tabindex="-1" role="dialog" aria-labelledby="image-modal-label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <img src="" alt="Large Image" id="modal-image">
+            </div>
+        </div>
+    </div>
+
+    <!-- Latest Bootstrap JavaScript Links -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+	
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
